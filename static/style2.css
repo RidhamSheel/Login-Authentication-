@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    background-color: royalblue;
+}
+
+.header a{
+    color: black;
+    float: right;
+    margin: 12px;
+    font-size: 18px;
+}
+.row h3{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 95px;
+}
+
+.main-content{
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
